@@ -1,0 +1,160 @@
+.nav {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(250, 249, 249);
+  padding: 20px;
+  text-align: center;
+}
+
+.link {
+  color: black;
+  margin-left: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(250, 249, 249);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.imag img {
+  width: 160px;
+  height: 80px;
+  margin-left: 40px;
+}
+
+.img {
+  margin-left: 30px;
+}
+
+.mid {
+  display: flex;
+  flex-direction: row;
+}
+
+.mid1 {
+  display: flex;
+  border: 1px solid rgb(207, 203, 203);
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 15%;
+  width: 30%;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgb(238, 234, 234);
+}
+
+.line {
+  border: 1px solid rgb(202, 199, 199);
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.searchbutton {
+  outline: none;
+  border: none;
+  background-color: rgb(250, 249, 249);
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.mid3 {
+  float: right;
+  margin-top: -50px;
+  margin-right: 20%;
+}
+
+.icon {
+  float: right;
+  margin-top: -60px;
+  margin-right: 10%;
+  font-size: 30px;
+}
+
+.login {
+  float: right;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.login1 {
+  float: right;
+  margin-top: -30px;
+  margin-right: 40px;
+  font-size: 30px;
+}
+
+.loginbox {
+  border: 1px solid rgb(167, 165, 165);
+  width: 80px;
+  height: 40px;
+  float: right;
+  margin-right: 30px;
+  margin-top: -60px;
+  border-radius: 20px;
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+}
+
+ul {
+  margin-left: -300px;
+  border: 1px solid black;
+  margin-top: 60px;
+  background-color: rgb(245, 239, 239);
+  border-radius: 10px;
+  width: 300px;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+}
+
+.learn {
+  border: 1px solid black;
+  width: 700px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+  border-radius: 10px;
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+}
+
+.learn img {
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 90px;
+  position: absolute;
+}
+
+.text {
+  margin-right: 300px;
+  font-size: x-large;
+}
+
+.para {
+  font-size: small;
+}
+
+.para2 {
+  font-size: large;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+
+.tryitbutton {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.closeshowtotal {
+  background-color: rgb(222, 220, 220);
+  outline: none;
+  border: none;
+}/*# sourceMappingURL=navbar.css.map */
