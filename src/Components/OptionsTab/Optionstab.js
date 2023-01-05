@@ -31,10 +31,11 @@ const OptionsTab = () => {
         <Tabs
           value={value}
           onChange={handleChange}
-          textColor='theme.palette.text.primary'
+           textColor='theme.palette.text.primary'
+           TabIndicatorProps={{style:{background:'gray'}}}
         //   borderColor="theme.palette.text.primary"
-          indicatorColor='primary'
-           aria-label=' theme.palette.primary tabs example'
+          // inkBarStyle={{background:'black'}}
+          //  aria-label=' theme.palette.primary tabs example'
           variant="scrollable"
           scrollButtons
           sx={{
@@ -56,7 +57,7 @@ const OptionsTab = () => {
             borderRadius: 2,
             textTransform: 'capitalize',
             py: 1,
-            color: 'theme.palette.text.primary',
+            color: 'black',
           }}
         >
           <FaFilter /> Filters

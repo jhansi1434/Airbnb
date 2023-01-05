@@ -12,7 +12,7 @@ $backgroundcolor:white;
 
 .nav{
    font-family: $font;
-    background-color: $background;
+    // background-color: $background;
     padding:$padding;
     text-align:$text;
 }
@@ -22,7 +22,7 @@ $backgroundcolor:white;
     margin-left: 5px;
     outline: none;
     border: none;
-     background-color:$background;
+    //  background-color:$background;
      cursor: pointer;
     text-decoration: underline;
 }
@@ -70,7 +70,7 @@ margin-left: 30px;
 .mid3{
     float:right;
     margin-top: -50px;
-    margin-right:20%;
+    margin-right:18%;
 }
 .icon{
     float:right;
@@ -173,6 +173,11 @@ font-size: x-large;
     outline: none;
     border: none;
     
+}
+.dark{
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
 }
  
 

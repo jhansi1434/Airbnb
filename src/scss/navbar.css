@@ -1,6 +1,12 @@
+/* .main_div{
+  background-color: blue;
+}
+.main_div_toggle{
+  background-color:red;
+} */
 .nav {
   font-family: "Times New Roman", Times, serif;
-  background-color: rgb(250, 249, 249);
+  /* background-color: #969393; */
   padding: 20px;
   text-align: center;
 }
@@ -10,7 +16,7 @@
   margin-left: 5px;
   outline: none;
   border: none;
-  background-color: rgb(250, 249, 249);
+  /* background-color: #969393; */
   cursor: pointer;
   text-decoration: underline;
 }
@@ -51,7 +57,7 @@
 .searchbutton {
   outline: none;
   border: none;
-  background-color: rgb(250, 249, 249);
+  background-color: white;
   margin-top: 15px;
   margin-left: 30px;
 }
@@ -59,7 +65,7 @@
 .mid3 {
   float: right;
   margin-top: -50px;
-  margin-right: 20%;
+  margin-right: 18%;
 }
 
 .icon {
@@ -157,4 +163,15 @@ li {
   background-color: rgb(222, 220, 220);
   outline: none;
   border: none;
-}/*# sourceMappingURL=navbar.css.map */
+}
+.dark{
+  margin-left: 30px;
+  /* margin-top: 10px; */
+text-align: center;
+/* width: 100px; */
+}
+/* .dark2{
+  width: 100px;
+  size: 100;
+} */
+/*# sourceMappingURL=navbar.css.map */

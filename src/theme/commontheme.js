@@ -33,9 +33,9 @@ export const fixedBottom={
 };
 // Custom carousel style
 export const carouselDot={
-    color: 'red',
+    color: 'black',
     backgroundColor: 'white',
-    opacity:0.5,
+    opacity:0.7,
     borderRadius:10,
     p:1,
     minWidth: 'auto',

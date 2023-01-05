@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Showtotalprices from '../../Components/Header/Showtotalprices';
 // import { BrowserRouter } from 'react-router-dom';
 import Search from '../../Components/Header/Search';
@@ -9,13 +9,16 @@ import { CssBaseline, Box } from '@mui/material';
 import OptionsTab from '../../Components/OptionsTab/Optionstab';
  import {Container} from '@mui/material';
 import Locationscards from '../../Components/CardsDisplay/Locationscards';
+import { AppThemeContext } from '../../Context/ThemeContextProvider';
 
 
 const Landingpage = () => {
+  const {darkMode}=useContext(AppThemeContext);
   return (
     <>
       {/* <BrowserRouter > */}
-        
+      <div  style={{backgroundColor:darkMode?'pink':'white'}}> 
+    
         <Showtotalprices />
         <Search />
         <Airbnbyourhome />
@@ -41,7 +44,7 @@ const Landingpage = () => {
           </Box>
           </Box>
         
-        
+          </div> 
       {/* </BrowserRouter> */}
 
       

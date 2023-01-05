@@ -15,7 +15,7 @@ const Locationscards = () => {
 return(
   <Grid key={location.id} item xs={12} sm={4} md={4} lg={3}>
  <CarousalCard location={location}/>
-  </Grid>
+   </Grid>
 );
 })}
 </Grid>
