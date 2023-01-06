@@ -1,5 +1,9 @@
  .maindiv{
-   
+  &__back{
+background-color: white;
+position: sticky;
+top: 0px;
+  }
     &__image1 {
         height: 80px;
         margin-left:50px;
@@ -34,15 +38,18 @@
         // font-family: Bold;
         margin-left:300px;
         font-weight:600 ;
+        margin-top: -600px;
+      
     }
     &__para{
         color: black;
         margin-left: -30px;
-        margin-top: -10px;
+        margin-top: 10px;
     }
     &__slider{
         color: rgb(25, 21, 21);
         margin-left: 220px;
+        margin-top: 50px;
     }
     &__number{
         font-weight: 600;
@@ -54,6 +61,63 @@
         font-size: 20px;
         font-weight: 100;
     }
+    &__map{
+        margin-left: 700px;
+        // margin-top: -300px;
+
+       
+    }
+    .imagemap{
+        width:500px;
+        height: 700px;
+        // position:absolute;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    &__estimate{
+        margin-left: 290px;
+        // font-size: 20px;
+        // font-weight: 100;
+        margin-top: 50px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    &__search{
+        border: 1px solid rgb(147, 144, 144);
+        width: 220px;
+        padding: 20px;
+        border-radius: 30px;
+        margin-top: 40px;
+        margin-left: 280px;
+        // padding-left: 60PX;
+        // position: absolute;
+        // *{margin-left: -10px;}
+    }
+     &__searchicon{
+     
+    
+      color: rgb(246, 113, 135);
+    //   margin-left: 260px;
+    //   margin-top: -100px;
+    //  margin-right: 10px;
+      
+
+   }
+   h1{
+    margin-left: 400px;
+    margin-top: 200px;
+   }
+   &__setupimage{
+    width:100%;
+    margin-top: 20px;
+   }
+   &__text{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    
+   }
+//    
  }
 // .maindiv__image1 img{
 //     width: 100px;
