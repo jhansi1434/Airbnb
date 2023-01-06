@@ -1,6 +1,6 @@
 #Screenshot
 
-<img width="949" alt="image" src="https://user-images.githubusercontent.com/121104998/211023788-ad25921f-8b44-4498-840f-ebb22614dd10.png">
+![image](https://user-images.githubusercontent.com/121104998/211024781-e72a7b1a-e22f-4634-a2b5-d4d6ee5a0fb6.png)
 
 # Getting Started with Create React App
 
